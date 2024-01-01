@@ -2,6 +2,8 @@
 
 #### Extract text from your images with ease!
 
+![img2txt.gif](https://i.postimg.cc/05YDtn5k/img2txt.gif)
+
 ### Prerequisites
 
 - Python (>=3.7)
