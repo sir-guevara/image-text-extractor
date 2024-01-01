@@ -70,7 +70,7 @@ const UploadPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 w-full">
+    <div className="min-h-screen flex items-center justify-center bg-orange-500 w-full">
       <div className="bg-white p-8 rounded-md shadow-md">
         <div className="text-center mb-6">
           <h2 className="text-3xl font-extrabold text-indigo-600 mb-2">
@@ -127,7 +127,7 @@ const UploadPage = () => {
           Extract Text
         </button>
 
-        {loading && <p className="text-gray-600">Uploading...</p>}
+        {loading && <p className="text-gray-600">Extracting text...</p>}
 
         {text && (
           <div className="bg-gray-100 p-4 rounded-lg">

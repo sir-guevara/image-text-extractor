@@ -16,7 +16,7 @@ app.add_middleware(
 
 def extract_text_from_image(file: UploadFile = File(...)):
     try:
-        # Set Tesseract executable path (use the path from Homebrew)
+        # Set the path to the tesseract executable
         pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
 
         # Open the image using Pillow
