@@ -35,12 +35,3 @@
    ```bash
    cd frontend
    npm install
-   ```
-
-## Usage
-
-Explain how to run the project locally and any additional usage instructions.
-
-## Deployment
-
-Provide instructions on how to deploy your project.
